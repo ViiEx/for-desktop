@@ -1,11 +1,11 @@
 [Desktop Entry]
-Name=Stoat
+Name=Campfire
 Comment=Open source, user-first chat platform
-Exec=stoat-desktop
+Exec=campfire-desktop
 Terminal=false
 Type=Application
-Icon=chat.stoat.StoatDesktop
+Icon=gr.campfire.Campfire
 Categories=Network;InstantMessaging
-StartupWMClass=stoat-desktop
+StartupWMClass=campfire-desktop
 X-Desktop-File-Install-Version=0.26
-X-Flatpak=chat.stoat.StoatDesktop
+X-Flatpak=gr.campfire.Campfire

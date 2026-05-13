@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop">
+  <id>gr.campfire.Campfire</id>
+  <launchable type="desktop-id">gr.campfire.Campfire.desktop</launchable>
+  <name>Campfire</name>
+  <developer id="gr.campfire">
+    <name>Campfire Team</name>
+  </developer>
+  <summary>Campfire is where companions gather when the banners are lowered and the road grows quiet. Around the fire, every voice finds its place—tales are traded, plans are forged, and fellowship grows stronger with every meeting. Whether preparing for the next venture or sharing the victories of the last, Campfire keeps your circle close and your council united.</summary>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>AGPL-3.0</project_license>
+  <icon type="remote" height="256" width="256">
+    https://raw.githubusercontent.com/viiex/for-desktop/assets/f106946659af67ad4f008588ac51570029b2fd47/desktop/icon.png</icon>
+  <description>
+    <p>
+      Campfire is where companions gather when the banners are lowered and the road grows quiet. Around the fire, every voice finds its place—tales are traded, plans are forged, and fellowship grows stronger with every meeting. Whether preparing for the next venture or sharing the victories of the last, Campfire keeps your circle close and your council united.
+      Campfire is a user-first chat platform built on open source principles, designed to foster genuine connections and vibrant communities. With a focus on privacy, customization, and seamless communication, Campfire empowers users to create their own unique spaces for collaboration and camaraderie. Whether you're looking to connect with friends, build a community, or simply find a place to share your thoughts, Campfire is the digital hearth where everyone is welcome.
+      We are based on the open source Stoat desktop client, and are committed to maintaining a transparent development process. We welcome contributions from the community and encourage users to report issues and suggest features on our GitHub repository.
+    </p>
+  </description>
+  <screenshots>
+    <screenshot type="default">
+      <caption>Main window</caption>
+      <image>https://raw.githubusercontent.com/viiex/for-desktop/b57faa2c59865fea15a879c9a9304271067d0020/screenshot.png</image>
+    </screenshot>
+  </screenshots>
+  <releases>
+    <release date="2026-02-14" version="1.2.0">
+      <description>
+        <p>Features:</p>
+        <ul>
+          <li>New Branding</li>
+          <li>Persist and restore window size and position</li>
+        </ul>
+        <p>Bug Fixes:</p>
+        <ul>
+          <li>App Autostart</li>
+        </ul>
+      </description>
+    </release>
+    <release date="2025-12-29" version="1.1.12">
+      <description>
+        <p>Bug fixes:</p>
+        <ul>
+          <li>Add NixOS compatibility for electron startup</li>
+          <li>Correctly load badge count; expose to renderer</li>
+          <li>Fix event listener accumulation from rpc client</li>
+          <li>Fix macOS tray icon size</li>
+          <li>Fix RPC largeImageText</li>
+          <li>Use the correct argument for auto start</li>
+        </ul>
+      </description>
+    </release>
+  </releases>
+  <url type="bugtracker">https://github.com/viiex/for-desktop/issues</url>
+  <url type="homepage">https://campfire.chat</url>
+  <url type="vcs-browser">https://github.com/viiex/for-desktop</url>
+  <content_rating type="oars-1.1">
+    <content_attribute id="social-chat">intense</content_attribute>
+    <content_attribute id="social-info">intense</content_attribute>
+    <content_attribute id="social-audio">intense</content_attribute>
+    <content_attribute id="social-contacts">intense</content_attribute>
+  </content_rating>
+  <requires>
+    <display_length compare="ge">940</display_length>
+    <internet>always</internet>
+  </requires>
+  <supports>
+    <control>keyboard</control>
+    <control>pointing</control>
+  </supports>
+</component>
